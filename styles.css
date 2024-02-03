@@ -1,0 +1,16 @@
+:root {
+    --base-color: #0891b2;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    background-color: var(--base-color);
+    min-height: 200px;
+    grid-template-columns: 1fr 4fr;
+}
+
